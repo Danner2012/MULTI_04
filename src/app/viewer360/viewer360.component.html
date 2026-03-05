@@ -1,1 +1,6 @@
 <div #rendererContainer class="renderer-container"></div>
+
+<!-- Mantenemos el componente Login en el DOM para que Three.js lo capture -->
+<div style="position: absolute; visibility: hidden; pointer-events: none;">
+  <app-login />
+</div>
