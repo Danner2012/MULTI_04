@@ -5,7 +5,7 @@ import { Viewer360Component } from './viewer360/viewer360.component';
   selector: 'app-root',
   standalone: true,
   imports: [Viewer360Component],
-  templateUrl: './app.html',
+  template: '<app-viewer360 />',
   styleUrl: './app.scss'
 })
 export class App {
